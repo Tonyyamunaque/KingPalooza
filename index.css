@@ -6,8 +6,8 @@ body {
 
 .portada {
     width: 100%;
-    height: 80%;
-    background-image: url(./Suspenden_Tomorrowland_por_coronavirus___WTC_Radio__coronavirus__flu__china-1024x683.jpg);
+    height: 100%;
+    background-image: url(https://vanschneider.com/blog/content/images/wp-content/uploads/2017/05/LiamWong_LOGO.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,34 +17,42 @@ body {
 }
 .portada h1 {
    color: rgba(0,0,0,0);
-   -webkit-text-stroke: rgb(241, 112, 220) 0.3px;
+   -webkit-text-stroke: rgb(248, 215, 243) 0.05px;
    z-index: 2;
-   font-family: 'Girassol', cursive;
-   font-size: 10em;
-   text-shadow: -4px 82px 22px rgba(0,0,0,0.6);
-   
+   font-family: 'Goblin One', cursive;
+   font-size: 5em;
+   text-shadow: -12px 4px 27px rgba(97,99,215,1);
 
 }
 .opasidad{
     width: 100%;
-    height: 80%;
+    height: 100%;
     position: absolute;
    background-color: rgb(0, 0, 0, 0.5)
 }
 .navbar{
-    width: 100%;
     position: fixed;
+    left: 34%;
+    font-size: 1.4em;
     z-index: 3;
+    margin: 2%;
+    border: 1px black solid;
+    border-radius: 15px;
+    
   
     
 }
+
+
 .lista-navegacion{
     padding: 0%;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
     
+    width: 100%;
+   color: white;
+   margin: 0%;
+   
 }
 .lista-navegacion li {
     margin: 10px;
@@ -63,19 +71,43 @@ body {
 .quienessomossecction{
     display: flex;
     justify-content: center;
-    
-    margin: 30px 0px;
+  
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2020/12/cyber-japan-neon-lights-girl-with-gun-4k_1608658644.jpg);
+    background-size: cover;
+   width: 100%;
+   height: 80%;
+   
 }
+
 .quienessomos-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-    width: 30%;
-    border: 1px solid;
-    box-shadow: -8px 5px 35px -8px rgba(0,0,0,0.75);
+    width: 28%;
+    border: 0.5px solid;
+    box-shadow: -8px 5px 35px -8px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -8px 5px 35px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: -8px 5px 35px -8px rgba(0,0,0,0.75);
+    padding: 0.5em;
+    border-radius: 15px;
+    margin: 1.5em;
+    
+    background-image: url(https://i.pinimg.com/originals/62/a9/07/62a907a3528d17a75076065a9b5fef63.jpg) ;
+    background-position: center;
+    background-size:cover;
+    z-index: 2;
+    text-shadow: -2px 1px 0px rgba(0,0,0,0.96);
+    
+}
+.quienessomos{
+   display: flex;
+   margin: 0.5%;
+   font-size: 2em;
+   color: white;
+   font-family: 'Anton', sans-serif;
+   -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  
+
 }
 
 
@@ -83,4 +115,21 @@ body {
 .parrafo-quienessomos{
   
    text-align: center;
+   text-align: justify;
+  color: white;
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-bottom: 4%;
+   font-size: 1.15em;
+   font-family: 'Farro', sans-serif;
+   -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+ 
 }
+.opasidadsection{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+   background-color: rgb(0, 0, 0, 0.5)
+}
+
+
