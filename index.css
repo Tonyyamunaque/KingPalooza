@@ -8,22 +8,73 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(https://vanschneider.com/blog/content/images/wp-content/uploads/2017/05/LiamWong_LOGO.jpg);
-    background-position: center;
+     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 .portada h1 {
    color: rgba(0,0,0,0);
    -webkit-text-stroke: rgb(248, 215, 243) 0.05px;
    z-index: 2;
    font-family: 'Goblin One', cursive;
-   font-size: 5em;
+   font-size: 5.5em;
    text-shadow: -12px 4px 27px rgba(97,99,215,1);
+   margin: 4.8%;
 
 }
+.post-titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.summer{
+    width: 20%;
+    font-size: 1.5em;
+    color: rgb(211, 245, 19);
+    margin: 0%;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: -5px 3px 0px rgba(14,13,13,0.67);
+    z-index: 2;
+}
+.city{
+    width: 23%;
+    font-size: 5.5em;
+    margin: 0%;
+    color: white;
+    
+    z-index: 2;
+    text-shadow: -6px 2px 0px rgba(14,13,13,0.78);
+ 
+}
+.night{
+    width: 13%;
+    font-size: 2em;
+    margin: 0%;
+    color: rgb(235, 18, 235);
+    font-family: 'PT Sans', sans-serif;
+    z-index: 2;
+    text-shadow: -5px 3px 0px rgb(10, 10, 10);
+   
+}
+
+.letsparty{
+    width: 18%;
+    font-size: 2.5em;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    z-index: 2;
+    text-shadow: -3px 3px 0px rgba(0,0,0,0.6);
+}
+
+
 .opasidad{
     width: 100%;
     height: 100%;
@@ -37,7 +88,9 @@ body {
     z-index: 3;
     margin: 2%;
     border: 1px black solid;
-    border-radius: 15px;
+    border-radius: 10px;
+    
+   
     
   
     
@@ -56,7 +109,7 @@ body {
 }
 .lista-navegacion li {
     margin: 10px;
-    font-family: 'Girassol', cursive;
+    font-family: 'PT Sans', sans-serif;
     
 }
 
@@ -68,6 +121,22 @@ body {
   text-decoration: none;
   color: inherit;
 }
+.music-is{
+    width: 100%;
+    height: 10%;
+   background-image: url(https://i.pinimg.com/originals/3d/62/b8/3d62b8ac17add8866055e4263fa437b1.jpg);
+ background-position: bottom;
+ background-size: cover;
+ display: flex;
+}
+.opasidad-dos{
+    width: 100%;
+   height: 10%;
+    position: absolute;
+   background-color: rgb(0, 0, 0, 0.5)
+
+}
+
 .quienessomossecction{
     display: flex;
     justify-content: center;
@@ -76,6 +145,7 @@ body {
     background-size: cover;
    width: 100%;
    height: 80%;
+   
    
 }
 
@@ -91,12 +161,11 @@ body {
     padding: 0.5em;
     border-radius: 15px;
     margin: 1.5em;
-    
     background-image: url(https://i.pinimg.com/originals/62/a9/07/62a907a3528d17a75076065a9b5fef63.jpg) ;
     background-position: center;
     background-size:cover;
     z-index: 2;
-    text-shadow: -2px 1px 0px rgba(0,0,0,0.96);
+   
     
 }
 .quienessomos{
@@ -106,8 +175,7 @@ body {
    color: white;
    font-family: 'Anton', sans-serif;
    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
-  
-
+   text-shadow: 0px 0px 9px rgba(14,13,13,1);
 }
 
 
@@ -122,7 +190,9 @@ body {
    margin-bottom: 4%;
    font-size: 1.15em;
    font-family: 'Farro', sans-serif;
-   -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+   -webkit-text-stroke: 1.7px rgb(0, 0, 0);
+   text-shadow: 0px 0px 9px rgba(14,13,13,1);
+  
  
 }
 .opasidadsection{
@@ -131,5 +201,206 @@ body {
     position: absolute;
    background-color: rgb(0, 0, 0, 0.5)
 }
+.food{
+    width: 100%;
+    height: 15%;
+    background-image: url(https://image.shutterstock.com/image-vector/cute-cartoon-fast-food-background-600w-1054271867.jpg);
+    display: flex;
+   flex-direction: column;
+}
+.combos{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.food h2{
+    margin: 0em;
+    color: rgb(22, 150, 236);
+    font-size: 2.5em;
+    font-family: 'Goblin One', cursive;
+    margin-left: 2%;
+    text-shadow: -3px 1px 0px rgb(236, 230, 230);
+    
+}
 
 
+.food p{
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: rgb(243, 239, 239);
+    text-shadow: -2px 1px 5px rgb(8, 8, 8);
+    
+    background-color: rgb(0, 0, 0, 0.5)
+    
+}
+.bandas{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+.bandas h2{
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+.divbandas{
+  
+    width: 20%;
+    margin: 2%;
+    height: 22em;
+   
+
+}
+.uno{
+    border: 4px solid rgb(233, 167, 0);
+    border-radius: 14px;
+    box-shadow: 0px 0px 30px 0px rgba(241, 194, 73, 0.75);
+-webkit-box-shadow: 0px 0px 30px 0px rgba(241, 194, 73, 0.75);
+-moz-box-shadow: 0px 0px 30px 0px rgba(241, 194, 73, 0.75);
+background-color: rgb(250, 234, 146);
+}
+.dos{
+    border: 4px solid rgba(245, 61, 122, 0.75);
+    border-radius: 14px;
+    box-shadow: 0px 0px 30px 0px rgba(245, 61, 122, 0.75);
+-webkit-box-shadow: 0px 0px 30px 0px rgba(245, 61, 122, 0.75);
+-moz-box-shadow: 0px 0px 30px 0px rgba(245, 61, 122, 0.75);
+background-color: rgb(228, 110, 212);
+}
+.tres{
+    border: 4px solid rgb(14, 213, 228);
+    border-radius: 14px;
+    box-shadow: 0px 0px 30px 0px rgb(14, 213, 228);
+-webkit-box-shadow: 0px 0px 30px 0px rgb(14, 213, 228);
+-moz-box-shadow: 0px 0px 30px 0px rgb(14, 213, 228);
+background-color: rgb(66, 177, 197);
+}
+.cuatro{
+    border: 4px solid rgb(228, 64, 14);
+    border-radius: 14px;
+    box-shadow: 0px 0px 30px 0px rgb(228, 64, 14);
+-webkit-box-shadow: 0px 0px 30px 0px rgb(228, 64, 14);
+-moz-box-shadow: 0px 0px 30px 0px rgb(228, 64, 14);
+background-color: rgb(168, 67, 37);
+}
+ .divbandas img {
+    width: 100%;
+    height: 18em;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 10px;
+ }
+ .divbandas h3 {
+     text-align: center;
+     margin: 4%;
+     font-family: 'PT Sans', sans-serif;
+ }
+ .divbandas h5{
+     margin: 0%;
+     text-align: center;
+ }
+ .entradas{
+     width: 100%;
+     height: 10%;
+     display: flex;
+     background-image: url(https://www.neondystopia.com/wp-content/uploads/2016/08/abstract_80_s_cyber_render_by_seanisapotato-d7ausp7.png);
+     background-position: center;
+     background-size: cover;
+    
+ }
+ .div-entradas{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+
+ }
+ .div-entradas h2{
+     margin: 1.5%;
+     font-size: 2em;
+     color: white;
+ }
+ .div-entradas p{
+     margin-top: 2%;
+     font-size: 1.5em;
+     color: white;
+ }
+.contacto{
+    width: 100%;
+    height: 23%;
+    background-color: hotpink;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.primer-label{
+  margin: 0.5%;
+  font-family: 'PT Sans', sans-serif;
+}
+.segundo-label{
+    margin: 0%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.input{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    
+}
+.div-button{
+    width: 100%;
+    text-align: center;
+}
+.div-button button{
+    width: 45%;
+    height: 30%;
+    margin-left: 15%;
+    border-radius: 15px;
+    font-family: 'Farro', sans-serif;
+    background-color: rgb(112, 114, 216);
+    cursor: pointer;
+
+} 
+.div-button button:hover{
+    background-color: rgb(14, 213, 228);
+} 
+.form-contacto1{
+    margin: 0%;
+}
+    
+
+.p-uno{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+margin-bottom: 1%;
+
+}
+.p-dos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.fab-icon{
+    color: white;
+    margin: 1%;
+}
